@@ -4,7 +4,7 @@ This project is used react-bootstrap, Firebase, and react router dom.
 
 ## Live link
 
-In the project directory, you can run:
+https://gregarious-sfogliatella-30d0f4.netlify.app/
 
 ### `Backend`
 
