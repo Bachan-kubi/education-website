@@ -9,6 +9,8 @@ import TermsAndCondition from "../Others/TermsAndCondition";
 import Courses from "../Pages/News/Courses";
 import Error from "../Error/Error";
 import Checkout from "../Cart/Checkout";
+import Blog from "../Blog/Blog";
+import FAQ from "../FAQ/FAQ";
 
 export const routes = createBrowserRouter([
   {
@@ -52,6 +54,14 @@ export const routes = createBrowserRouter([
         path: "checkout",
         element: <Checkout />,
       },
+      {
+        path: 'blog',
+        element: <Blog />
+      },
+      {
+        path: 'faq',
+        element: <FAQ />
+      }
     ],
   },
   {

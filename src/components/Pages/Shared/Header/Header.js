@@ -37,8 +37,8 @@ const Header = () => {
     <div className="header">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
+        <img src={Logo} />
           <Navbar.Brand>
-            <img src={Logo} />
             <Link to="/">Learning Guru</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -49,6 +49,9 @@ const Header = () => {
               </Nav.Link>
               <Nav.Link>
                 <Link to="/blog">Blog</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/faq">FAQ</Link>
               </Nav.Link>
             </Nav>
             <Nav>
