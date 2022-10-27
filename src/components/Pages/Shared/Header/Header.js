@@ -38,16 +38,15 @@ const Header = () => {
         <Container>
           <Navbar.Brand>
             {" "}
-            <Link to="/">Dragon News</Link>{" "}
+            <Link to="/">Learning Guru</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
-                {" "}
-                <Link to="/">Turoirals</Link>{" "}
+                <Link to="/">Turoirals</Link>
               </Nav.Link>
-              <Nav.Link href="#pricing">
+              <Nav.Link>
                 <Link to="/blog">Blog</Link>
               </Nav.Link>
             </Nav>
