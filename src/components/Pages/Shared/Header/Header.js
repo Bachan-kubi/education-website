@@ -2,6 +2,7 @@ import React from "react";
 import { useContext } from "react";
 import { Button, Image } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
+import Logo from '../../../../assests/img/logo-2.png'
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FaImage } from "react-icons/fa";
@@ -37,7 +38,7 @@ const Header = () => {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>
-            {" "}
+            <img src={Logo} />
             <Link to="/">Learning Guru</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
