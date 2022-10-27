@@ -1,0 +1,9 @@
+.header a{
+    text-decoration: none;
+}
+.log a{
+    margin: 5px;
+}
+.header .name{
+    margin: 5px;
+}
